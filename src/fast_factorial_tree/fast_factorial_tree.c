@@ -22,8 +22,8 @@ void fast_factorial_tree(level_t l,callback_t cb){
 			if (j==l){
 				return;
 			}
-			f*=j+2;
 			j++;
+			f*=j+1;
 		}
 	}
 }
